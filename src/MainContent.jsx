@@ -1,9 +1,10 @@
 import React from 'react';
+import img from './Fah.jpg';
 export default function Main() {
   return (
     <div>
       <div className="hero">
-        <img src="Fah.jpg" className="profile-img" />
+        <img src={img} className="profile-img" />
         <h1>Sutthida Senawong</h1>
         <h4>Frontend Developer</h4>
         <p>sutthida.website</p>
